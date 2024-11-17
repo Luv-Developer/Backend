@@ -1,0 +1,146 @@
+*{
+  margin:3px;
+  padding:5px;
+  box-sizing:border-box;
+}
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  background-image:url("/images/image3.jpg");
+  background-size:cover;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+section{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+  color:white;
+  background-image:url("/images/image3.jpg");
+  background-size:cover;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-position:center;
+  animation:animatebg 2s linear infinite;
+}
+@keyframes animatebg{
+  0%{
+      filter:hue-rotate(0deg);
+  }
+  100%{
+      filter:hue-rotate(360deg);
+  }
+}
+.main{
+  padding:10px 30px;
+  height:450px;
+  width:450px;
+  box-shadow:0 0 10px grey;
+  border-radius:20px;
+  border:3px solid grey;
+  font-weight:bold;
+  background:transparent;
+  backdrop-filter:blur(15px);
+}
+h2{
+  font-size:30px;
+  text-align:center;
+}
+.email{
+  width:320px;
+  height:40px;
+  border-radius:20px;
+  border:2px solid white;
+  font-size:18px;
+  font-weight:bold;
+  transition:0.5s;
+}
+.email:hover{
+  transition:0.5s;
+  border:3px solid blue;
+}
+.user{
+  width:320px;
+  height:40px;
+  border-radius:20px;
+  border:2px solid white;
+  font-size:18px;
+  font-weight:bold;
+  transition:0.5s;
+}
+.user:hover{
+  transition:0.5s;
+  border:3px solid blue;
+}
+.pass{
+  width:320px;
+  height:40px;
+  border-radius:20px;
+  border:2px solid white;
+  font-size:18px;
+  font-weight:bold;
+  transition:0.5s;
+}
+.pass:hover{
+  transition:0.5s;
+  border:3px solid blue;
+}
+#fbox{
+  font-size:25px;
+}
+#sbox{
+  font-size:25px;
+}
+#tbox{
+  font-size:25px;
+}
+a{
+  text-decoration:none;
+  color:white;
+  transition:0.5s;
+}
+a:hover{
+  letter-spacing:0.1em;
+  text-decoration:underline;
+}
+.check{
+  width:20px;
+  height:17px;
+}
+.flabel{
+  font-size:18px;
+  margin-left:10px;
+  letter-spacing:0.1em;
+}
+#robot{
+  font-size:26px;
+}
+button{
+  background-color:green;
+  width:370px;
+  height:40px;
+  font-size:18px;
+  font-weight:bold;
+  border:1px solid black;
+  border-radius:20px;
+  transition:0.5s;
+  animation:animatebtn 3s linear infinite;
+}
+button:hover{
+  transition:0.5s;
+  letter-spacing:0.2em;
+  box-shadow:0 0 10px;
+}
+@keyframes animatebtn{
+  0%{
+      filter:hue-rotate(0deg);
+  }
+  100%{
+      filter:hue-rotate(360deg);
+  }
+}
+.sixth{
+  text-align:center;
+  font-size:16px;
+}
